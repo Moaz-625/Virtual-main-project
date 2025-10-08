@@ -1,6 +1,6 @@
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import logo from "../assets/logo2.jpg";
+
 import { navItems } from "../constants";
 
 const Navbar = () => {
@@ -18,8 +18,7 @@ const Navbar = () => {
           <div className="flex items-center flex-shrink-0 cursor-pointer">
             <img
               className="h-10 w-10 mr-2 transition-transform duration-300 hover:scale-110"
-              src={logo}
-              alt="Logo"
+              alt=""
             />
             <span className="text-xl tracking-tight font-bold hover:text-teal-400 transition-colors duration-300">
               VirtualR
